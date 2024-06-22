@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main > section > div.card{
+  margin: 13px;
+  display: inline-block;
+  background-color: rgb(237, 237, 255);
+  width: 340px;
+  height: 470px;
+  box-shadow: 0 0px 5px #464646;
+  font-family: "Jost", sans-serif;
+  border-radius: 5px;
+}
+
+body{
+  background-image: linear-gradient(to top, #cfd9df5e 0%, #e2ebf06a 50%), url(characters/image.png);
+  background-size: contain;
+}
+
+section{
+  text-align: center;
+}
+
+main > section > div.card > img{
+  display: block;
+  margin: 10px auto 5px;
+  height: 70%;
+  filter: drop-shadow(0 0 6px rgb(0, 0, 0));
+}
+
+main > section > div.card > p.titulo{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main > section > div.card > p.text{
+  padding: 0 0 0 10px;
+  text-align: left;
+}
+
+main > section > div.card > p.contenido{
+  font-size: 16px;
+}
